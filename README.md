@@ -194,7 +194,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "lcd.h"df
+#include "lcd.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -269,7 +269,7 @@ int main(void)
   // Lcd_create(ports, pins, RS_GPIO_Port, RS_Pin, EN_GPIO_Port, EN_Pin, LCD_4_BIT_MODE);
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
-  Lcd_string(&lcd, "Bejin");
+  Lcd_string(&lcd, "Ashwin");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -397,7 +397,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 ```
 ## Output screen shots of proteus  :
- ![Lcd 1](https://user-images.githubusercontent.com/119407186/236778486-ea32c327-2a5b-454e-8dfe-cd7571f6e324.png)
+![lcd ashwin](https://github.com/ASHWINKUMAR2903/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119407186/35c66c61-4c88-46cc-8895-f94f75381961)
 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  ![Lcd 2](https://user-images.githubusercontent.com/119407186/236778510-6ffdb777-0f61-4a30-a8af-8e6a2671d1f7.png)
